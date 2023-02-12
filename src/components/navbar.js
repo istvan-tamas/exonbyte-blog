@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 export default class navbar extends Component {
   render() {
     return (
-      <nav>
+      <nav className="main-nav">
         <div>
             <ul>
                 <li>
