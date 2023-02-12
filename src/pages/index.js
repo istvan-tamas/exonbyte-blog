@@ -23,7 +23,7 @@ class IndexPage extends React.Component {
         
         <p>Starter blog about software development</p>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
+          <Button marginTop="35px">Blog</Button>
         </Link>
       </Layout>
     )
