@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
+import "../css/navbar.css"
+
 
 export default class navbar extends Component {
   render() {
     return (
-      <nav className="main-nav">
+      <nav>
         <div>
             <ul>
                 <li>
