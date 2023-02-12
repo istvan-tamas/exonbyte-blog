@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'gatsby'
 
 export default class navbar extends Component {
   render() {
@@ -7,7 +8,22 @@ export default class navbar extends Component {
         <div>
             <ul>
                 <li>
-                    <a href="">This is a link</a>
+                <Link to="/blog/">
+                  Blog
+                </Link>
+                </li>
+                <li>
+                <Link to="/projects/">
+                  Projects
+                </Link>
+                </li>
+                <li> <Link to="/about/">
+                  About
+                </Link></li>
+                <li>
+                <Link to="https://github.com/istvan-tamas/">
+                  github
+                </Link>
                 </li>
             </ul>
         </div>
