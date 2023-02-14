@@ -16,7 +16,6 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `exonbyte`, `javascript`, `react`, `software development`]}
         />
-        <Navbar></Navbar>
         <h1>
           A biochemist in the world of computer science.
         </h1>

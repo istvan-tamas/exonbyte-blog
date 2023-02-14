@@ -3,12 +3,17 @@ import { Link } from 'gatsby'
 import "../css/navbar.css"
 
 
-export default class navbar extends Component {
+export default class Navbar extends Component {
   render() {
     return (
       <nav>
         <div>
             <ul>
+                <li>
+                <Link to="/">
+                  Home
+                </Link>
+                </li>
                 <li>
                 <Link to="/blog/">
                   Blog

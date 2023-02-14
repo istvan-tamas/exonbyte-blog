@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import Navbar from "./navbar"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -9,9 +10,10 @@ class Layout extends React.Component {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     const blogPath = `${__PATH_PREFIX__}/blog/`
+    const projectsPath = `${__PATH_PREFIX__}/projects/`
     let header
-
-    if (location.pathname === rootPath || location.pathname === blogPath) {
+    
+    if (location.pathname === rootPath || location.pathname === blogPath ) {
       header = (
         <h1
           style={{
@@ -64,12 +66,11 @@ class Layout extends React.Component {
           }}
         >
           <header>{header}</header>
+          <Navbar></Navbar>
           <main>{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()} exonbyte
         </Footer>
       </Wrapper>
     )
