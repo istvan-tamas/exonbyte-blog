@@ -5,3 +5,10 @@
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media 
+
+
+Horizontal rule
+---
+
+~~This is not needed~~
+
