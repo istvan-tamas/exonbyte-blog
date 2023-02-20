@@ -15,6 +15,11 @@ class Layout extends React.Component {
     
     return (
       <Wrapper>
+        <h1 style={{
+            marginLeft: `auto`,
+            marginRight: `auto`,
+            maxWidth: rhythm(20),
+          }}>exonbyte blog</h1>
         <div
           style={{
             marginLeft: `auto`,
