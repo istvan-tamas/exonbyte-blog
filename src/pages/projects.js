@@ -9,7 +9,7 @@ class Projects extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-
+        <h3>Current projects</h3>
   
       </Layout>
     )

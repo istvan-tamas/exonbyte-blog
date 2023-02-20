@@ -18,7 +18,7 @@ class Layout extends React.Component {
         <h1 style={{
             marginLeft: `auto`,
             marginRight: `auto`,
-            maxWidth: rhythm(20),
+            maxWidth: rhythm(22),
           }}>exonbyte blog</h1>
         <div
           style={{
