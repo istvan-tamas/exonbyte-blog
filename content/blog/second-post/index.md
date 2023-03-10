@@ -12,3 +12,7 @@ Horizontal rule
 
 ~~This is not needed~~
 
+# Heading
+
+* Some paragraph
+
