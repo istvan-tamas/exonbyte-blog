@@ -16,7 +16,7 @@ class IndexPage extends React.Component {
           keywords={[`blog`, `exonbyte`, `javascript`, `react`, `software development`]}
         />
         <h1>
-          A biochemist in the world of computer science.
+          Doing computer science as a biochemist
         </h1>
         
         <p>Starter blog about software development</p>
