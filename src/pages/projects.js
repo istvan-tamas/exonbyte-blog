@@ -1,9 +1,6 @@
 import * as React from 'react';
+import Layout from '../components/layout';
 
 export default function Home() {
-	return (
-		<div>
-			<h1>Projects</h1>
-		</div>
-	);
+	return <Layout></Layout>;
 }
