@@ -1,0 +1,13 @@
+ul {
+	background: #297ea1;
+}
+
+ul li {
+	display: inline;
+	margin: 1rem;
+}
+
+ul li a {
+	text-decoration: none;
+	color: FFF;
+}
