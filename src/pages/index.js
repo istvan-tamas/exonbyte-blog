@@ -1,11 +1,6 @@
 import * as React from 'react';
-import Navbar from '../components/navbar';
+import Layout from '../components/layout';
 
 export default function Home() {
-	return (
-		<div>
-			<h1>Hello world!</h1>
-			<Navbar />
-		</div>
-	);
+	return <Layout></Layout>;
 }
