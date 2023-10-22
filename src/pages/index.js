@@ -1,14 +1,18 @@
+import { Link } from "gatsby";
 import * as React from 'react';
 import Layout from '../components/layout';
+import * as styles from '../css/home.module.css';
 
 export default function Home() {
 	return (
 		<Layout>
+			<section className={styles.header}>
 		<div>
-			<hr></hr>
-			<h3>Home</h3>
-			<p>This is the home section</p>
+			<h1>Home</h1>
+			<p>Welcome</p>
+			<Link className={styles.btn} to="/projects">Current projects</Link>
 		</div>
+		</section>
 		</Layout>
 	);
 }
