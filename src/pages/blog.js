@@ -6,6 +6,7 @@ export default function Home() {
 		<Layout>
 		<div>
 			<h1>Blog</h1>
+			<p>Current blog posts</p>
 		</div>
 		</Layout>
 	);

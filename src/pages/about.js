@@ -6,6 +6,7 @@ export default function Home() {
 		<Layout>
 		<div>
 			<h1>About</h1>
+			<p>About me</p>
 		</div>
 		</Layout>
 	);

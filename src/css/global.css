@@ -38,11 +38,16 @@ nav a {
   margin-left: 20px;
   font-weight: 400;
   padding-bottom: 8px;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 nav a:hover {
   border-color: white;
 }
+
+footer {
+  margin: 2em 0;
+}
+
 footer p{
   text-align: center;
   color: #bbb;
