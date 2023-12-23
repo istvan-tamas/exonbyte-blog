@@ -8,5 +8,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
-}
+	plugins: [],
+	siteMetadata: {
+		title: 'exonbyte development blog',
+		description: 'A molecular biologist building software',
+		copyright: '2023',
+	},
+};
