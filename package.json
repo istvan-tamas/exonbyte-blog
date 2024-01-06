@@ -1,7 +1,7 @@
 {
-	"name": "gatsby-starter-hello-world",
+	"name": "exonbyte.dev",
 	"private": true,
-	"description": "A simplified bare-bones starter for Gatsby",
+	"description": "Dev blog about a molecular biologist in the world of tech",
 	"version": "0.1.0",
 	"license": "0BSD",
 	"scripts": {
