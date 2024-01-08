@@ -7,7 +7,7 @@ export default function Home() {
 		<Layout>
 			<div className={styles.portfolio}>
 				<h1>Current projects</h1>
-				<p>Projects I'm working on</p>
+				<h2>Projects I'm working on</h2>
 
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -11,7 +11,7 @@ export default function Home({ data }) {
 			<section className={styles.header}>
 				<div>
 					<h1>Home</h1>
-					<p>Welcome</p>
+					<h2>Welcome</h2>
 					<h3>
 						{title} - {description}
 					</h3>
