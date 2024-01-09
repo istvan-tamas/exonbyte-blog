@@ -4,20 +4,7 @@
 	grid-gap: 40px;
 	align-items: center;
 }
-.header h1 {
-	font-size: 2em;
-	margin-bottom: 1em;
-}
 
-.header h2 {
-	font-size: 1.5em;
-	margin-bottom: 1em;
-}
-.header h3 {
-	font-size: 1em;
-	font-weight: 400;
-	margin-bottom: 2em;
-}
 .btn {
 	display: inline-block;
 	background: #4f4e4d;
