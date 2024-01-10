@@ -15,7 +15,6 @@ export default function Home({ data }) {
 					<h3>
 						{title} - {description}
 					</h3>
-					<hr></hr>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
