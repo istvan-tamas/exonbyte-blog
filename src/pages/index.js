@@ -10,8 +10,7 @@ export default function Home({ data }) {
 		<Layout>
 			<section className={styles.header}>
 				<div>
-					<h1>Home</h1>
-					<h2>Welcome</h2>
+					<h3>Welcome</h3>
 					<h3>
 						{title} - {description}
 					</h3>
