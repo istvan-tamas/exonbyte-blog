@@ -1,9 +1,9 @@
 ---
-title: Awesome Blog Post Title
-author: Nikola
-date: 2020-07-15
+title: Building a REST API in Spring Boot
+author: Sense DNA
+date: 2024-06-24
 ---
 
-## Introduction to my blog post
+## Building a REST API in Spring Boot
 
 Great content of my first blog
