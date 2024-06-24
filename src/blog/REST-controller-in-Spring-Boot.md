@@ -8,17 +8,17 @@ date: 2024-06-24
 
 Great content of my first blog
 
-    I created `.env` file at the root.
-    Backticks inside backticks? `` `No problem.` ``
+I created `.env` file at the root.
+Backticks inside backticks? `` `No problem.` ``
 
-    ```
-    {
-      learning: "Markdown",
-      showing: "block code snippet"
-    }
-    ```
+```
+{
+    learning: "Markdown",
+    showing: "block code snippet"
+}
+```
 
-    ```js
-    const x = "Block code snippet in JS";
-    console.log(x);
-    ```
+```js
+const x = 'Block code snippet in JS';
+console.log(x);
+```
