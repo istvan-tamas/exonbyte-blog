@@ -2,7 +2,7 @@ import * as React from 'react';
 import Layout from '../components/layout';
 import * as styles from '../css/projects.module.css';
 
-export default function Home() {
+export default function Projects() {
 	return (
 		<Layout>
 			<div className={styles.portfolio}>
