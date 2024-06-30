@@ -9,6 +9,7 @@
  */
 module.exports = {
 	plugins: [
+		`gatsby-transformer-remark`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
@@ -16,7 +17,6 @@ module.exports = {
 				path: `${__dirname}/src/blog/`,
 			},
 		},
-		`gatsby-transformer-remark`,
 	],
 	siteMetadata: {
 		title: 'exonbyte development blog',

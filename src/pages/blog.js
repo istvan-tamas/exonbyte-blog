@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Layout from '../components/layout';
-import { graphql } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 
 export default function Blog({ data }) {
 	const { posts } = data.blog;
@@ -11,11 +11,11 @@ export default function Blog({ data }) {
 
 				{posts.map((post) => (
 					<article key={post.id}>
-						<h2>{post.frontmatter.title}</h2>
+						<h3>{post.frontmatter.title}</h3>
 						<small>
 							{post.frontmatter.author}, {post.frontmatter.date}
 						</small>
-						<p>{post.excerpt}</p>
+						<div dangerouslySetInnerHTML={{ __html: post.html }} />
 					</article>
 				))}
 			</div>
@@ -24,7 +24,7 @@ export default function Blog({ data }) {
 }
 
 export const pageQuery = graphql`
-	query MyQuery {
+	query BlogPosts {
 		blog: allMarkdownRemark {
 			posts: nodes {
 				frontmatter {
@@ -32,8 +32,7 @@ export const pageQuery = graphql`
 					title
 					author
 				}
-				excerpt
-				id
+				html
 			}
 		}
 	}
