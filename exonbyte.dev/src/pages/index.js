@@ -13,6 +13,8 @@ export default function Home() {
 					consequuntur, et, soluta architecto?
 				</p>
 			</div>
+
+			<p></p>
 		</Layout>
 	);
 }
