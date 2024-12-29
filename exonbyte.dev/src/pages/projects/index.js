@@ -1,9 +1,12 @@
 import React from 'react';
+import Layout from '../../components/Layout';
 
 export default function Index() {
 	return (
-		<div>
-			<h2>The projects</h2>
-		</div>
+		<Layout>
+			<div>
+				<h2>The projects</h2>
+			</div>
+		</Layout>
 	);
 }
