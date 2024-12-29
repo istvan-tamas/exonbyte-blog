@@ -8,7 +8,16 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-	plugins: [],
+	plugins: [
+		`gatsby-transformer-remark`,
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `blog`,
+				path: `${__dirname}/src/blog/`,
+			},
+		},
+	],
 	siteMetadata: {
 		title: 'exonbyte.dev',
 		description: 'Bioinformatics',
