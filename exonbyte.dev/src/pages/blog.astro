@@ -5,11 +5,13 @@ const posts = await getCollection("posts");
 import Layout from '../layouts/Layout.astro';
 import Main from '../components/Main.astro';
 import H1 from '../components/H1.astro';
+import Header from '../components/Header.astro';
 ---
 
 <Layout title="Blog">
 	<Main>
 		<H1 text="exonbyte"></H1>
+        <Header />
         {posts.map(post => (
                 <h1>{post.data.title}</h1>
                 <p>{post.body}</p>
