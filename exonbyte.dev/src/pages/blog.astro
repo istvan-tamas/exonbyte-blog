@@ -1,7 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 const posts = await getCollection("posts");
-console.log(posts);
 
 import Layout from '../layouts/Layout.astro';
 import Main from '../components/Main.astro';
@@ -12,8 +11,9 @@ import H1 from '../components/H1.astro';
 	<Main>
 		<H1 text="exonbyte"></H1>
         {posts.map(post => (
-                <h2>{post.data.title}</h2>
-            <h2>{post.data.title}</h2>
+                <h1>{post.data.title}</h1>
+                <p>{post.body}</p>
         ))}
+
 	</Main>
 </Layout>
