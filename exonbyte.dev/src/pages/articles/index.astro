@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro"
 import ArticleCard from "../../components/ArticleCard.astro";
 import { getCollection } from "astro:content";
 import SearchForm from "../../components/SearchForm.astro";
+import Pagination from "../../components/Pagination.astro";
 
 import type { CollectionEntry } from "astro:content";
 
@@ -19,14 +20,6 @@ const allBlogArticles: CollectionEntry<'blog'>[] = (await getCollection('blog'))
     )) }
     </div>
 
-      <!-- Pagination -->
-      <div class="flex justify-between mt-10">
-        <a href="#" class="inline-block bg-indigo-100 px-3 py-2 hover:bg-indigo-600 hover:text-white rounded-lg">
-          Previous
-        </a>
-        <a href="#"
-         class="inline-block bg-indigo-100 px-3 py-2 hover:bg-indigo-600 hover:text-white rounded-lg">
-          Next
-        </a>
-      </div>
+    <Pagination currentPage={1} totalPages={2} />
+
 </Layout>
