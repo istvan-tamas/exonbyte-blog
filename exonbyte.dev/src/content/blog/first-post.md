@@ -10,3 +10,7 @@ slug: hello-world
 ## Welcome to the blog
 
 Hello there...
+
+### This is the first post
+
+Here is the content
